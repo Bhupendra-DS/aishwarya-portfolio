@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
+import profilePhoto from "@/assets/image.png";
 
 const Hero = () => {
   const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -30,7 +30,7 @@ const Hero = () => {
               Data Analyst
             </p>
             <p className="text-muted-foreground leading-relaxed max-w-lg mb-8">
-              Motivated and detail-oriented Data Analyst with skills in Excel, SQL, Python, and Power BI. Experienced in exploratory data analysis, data visualization, and dashboard creation to extract meaningful insights.
+              Motivated and detail-oriented Data Analyst with strong proficiency in Excel, SQL, Python, and Power BI for data cleaning, analysis, and visualization. Experienced in exploratory data analysis (EDA), data transformation, and dashboard development to extract meaningful insights. Skilled in Python libraries including Pandas, Matplotlib, and Seaborn, alongside SQL querying and Power BI reporting. Seeking a Data Analyst role to apply analytical skills and contribute to data-driven business decision-making.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -40,9 +40,13 @@ const Hero = () => {
               >
                 View Projects <ArrowDown size={16} />
               </button>
-              <button className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-accent-foreground font-medium hover:bg-primary/10 transition-all duration-300 hover:-translate-y-0.5">
+              <a
+                href="/resume.pdf"
+                download="Aishwarya_HS_Resume.pdf"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-accent-foreground font-medium hover:bg-primary/10 transition-all duration-300 hover:-translate-y-0.5"
+              >
                 <Download size={16} /> Download Resume
-              </button>
+              </a>
               <button
                 onClick={() => scrollTo("contact")}
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border text-foreground font-medium hover:border-primary/40 hover:bg-accent transition-all duration-300 hover:-translate-y-0.5"

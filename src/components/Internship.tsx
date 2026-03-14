@@ -3,10 +3,9 @@ import SectionWrapper from "./SectionWrapper";
 import { Briefcase, CheckCircle2 } from "lucide-react";
 
 const responsibilities = [
-  "Developed Power BI dashboards",
-  "Cleaned and transformed datasets",
-  "Used DAX functions for calculations",
-  "Presented insights through visual reports",
+  "Developed interactive Power BI dashboards to support business reporting and data-driven decision-making.",
+  "Cleaned, transformed, and analyzed datasets using Power BI, applying DAX functions for advanced calculations.",
+  "Optimized data models and reports to present actionable insights to stakeholders.",
 ];
 
 const Internship = () => (

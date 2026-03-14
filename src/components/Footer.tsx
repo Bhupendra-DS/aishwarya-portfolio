@@ -8,10 +8,10 @@ const Footer = () => (
         <p className="text-xs text-muted-foreground">Data Analyst Portfolio</p>
       </div>
       <div className="flex gap-3">
-        <a href="#" className="w-9 h-9 rounded-xl bg-accent flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors">
+        <a href="https://linkedin.com/in/aishwarya-hs" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-xl bg-accent flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors" aria-label="LinkedIn">
           <Linkedin size={18} />
         </a>
-        <a href="#" className="w-9 h-9 rounded-xl bg-accent flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors">
+        <a href="https://github.com/aishwarya-hs" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-xl bg-accent flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors" aria-label="GitHub">
           <Github size={18} />
         </a>
       </div>

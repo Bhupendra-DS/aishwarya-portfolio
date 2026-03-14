@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import SectionWrapper from "./SectionWrapper";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send, Linkedin, Github } from "lucide-react";
 import { useState } from "react";
 
 const contactInfo = [
   { icon: Phone, label: "Phone", value: "+91 8904418118" },
   { icon: Mail, label: "Email", value: "aish70929@gmail.com", href: "mailto:aish70929@gmail.com" },
   { icon: MapPin, label: "Location", value: "Mysuru, Karnataka, India" },
+  { icon: Linkedin, label: "LinkedIn", value: "LinkedIn", href: "https://linkedin.com/in/aishwarya-hs" },
+  { icon: Github, label: "GitHub", value: "GitHub", href: "https://github.com/aishwarya-hs" },
 ];
 
 const Contact = () => {
@@ -34,7 +36,11 @@ const Contact = () => {
               <div>
                 <p className="text-xs text-muted-foreground">{c.label}</p>
                 {c.href ? (
-                  <a href={c.href} className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+                  <a
+                    href={c.href}
+                    className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+                    {...(c.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                  >
                     {c.value}
                   </a>
                 ) : (

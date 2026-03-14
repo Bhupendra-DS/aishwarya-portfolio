@@ -6,25 +6,25 @@ const projects = [
   {
     title: "Sales Analysis Dashboard",
     tech: ["Power BI"],
-    description: "Interactive sales reports analyzing customer behavior and product trends.",
+    description: "Built dynamic and interactive sales reports providing deep insights into sales performance, customer behavior, and product trends. Enabled data-driven decisions for optimizing sales strategies, marketing campaigns, and inventory management.",
     icon: BarChart3,
   },
   {
     title: "Car Price Prediction",
     tech: ["Python", "Machine Learning"],
-    description: "Used Pandas and Matplotlib for data analysis and built ML models to predict car prices.",
+    description: "Performed data cleaning, transformation, and exploratory data analysis using Pandas and Matplotlib. Applied machine learning models to predict car prices; improved accuracy through feature engineering and validation techniques.",
     icon: Car,
   },
   {
     title: "HR Dashboard",
     tech: ["Tableau"],
-    description: "Analyzed employee roles, salary trends, and hiring patterns.",
+    description: "Designed an interactive Tableau dashboard to analyze employee data across job roles, gender distribution, salary trends, age groups, and education qualifications. Created visualizations to track headcount, salary insights, leave balances, and hiring trends, enabling better workforce planning.",
     icon: Users,
   },
   {
-    title: "Pizza Sales Dashboard",
+    title: "Pizza Sales & Orders Overview Dashboard",
     tech: ["Excel"],
-    description: "Analyzed revenue trends and top selling items.",
+    description: "Analyzed pizza sales data to identify top-selling items, peak order periods, and revenue trends. Built interactive dashboards tracking KPIs including total revenue, order volumes, and category-wise sales performance.",
     icon: Pizza,
   },
 ];

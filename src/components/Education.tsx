@@ -5,15 +5,15 @@ import { GraduationCap } from "lucide-react";
 const educationData = [
   {
     degree: "Bachelor of Computer Application (BCA)",
-    institution: "JSS College of Arts, Commerce and Science",
+    institution: "JSS College of Arts, Commerce and Science, Mysore",
     period: "2022 – 2025",
-    score: "CGPA – 7.79",
+    score: "CGPA: 7.79",
   },
   {
-    degree: "Higher Secondary Education (12th Grade)",
-    institution: "Morarji Desai Residential PU College",
+    degree: "Higher Secondary Certificate (12th Grade)",
+    institution: "Morarji Desai Residential PU College, Varakodu, Mysore",
     period: "2020 – 2022",
-    score: "Percentage – 72.5%",
+    score: "Percentage: 72.5%",
   },
 ];
 
